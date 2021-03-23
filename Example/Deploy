@@ -1,0 +1,7 @@
+
+//tag
+git push origin 1.0.0
+
+
+pod trunk push XIExtension.podspec --allow-warnings
+

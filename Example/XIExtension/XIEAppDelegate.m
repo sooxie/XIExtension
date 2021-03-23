@@ -7,12 +7,17 @@
 //
 
 #import "XIEAppDelegate.h"
+#import <XIExtension/NSString+Common.h>
 
 @implementation XIEAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    
+    NSString *str = @"123";
+    
+    NSString *md5 = [str md5Str];
+
     return YES;
 }
 

@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "NSString+Common.h"
 
 FOUNDATION_EXPORT double XIExtensionVersionNumber;
 FOUNDATION_EXPORT const unsigned char XIExtensionVersionString[];

@@ -1,0 +1,6 @@
+framework module Pods_XIExtension_Tests {
+  umbrella header "Pods-XIExtension_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
